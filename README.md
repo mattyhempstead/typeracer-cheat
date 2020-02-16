@@ -24,7 +24,7 @@ Completing the captcha is a relatively long, messy, probabilistic, speculative, 
 
 ### 1. Image pre-processing
 
-Before reading the image, the script performs some pre-processing of the image using a temporary HTML canvas to make recognising the text easier. In particular, the image is scanned for any pixels which are dark enough to potentially be part of the black markings. When a pixel is found, the pixel is changed to represent the same colour as the background at that point in the image. 
+Before reading the image, the script performs some pre-processing using a temporary HTML canvas to make recognising the text easier. In particular, the image is scanned for any pixels which are dark enough to potentially be part of the black markings. When a pixel is found, the pixel is changed to represent the same colour as the background at that point in the image. 
 
 ![445 score](resources/captcha-processed.png)  
 *The same captcha image after pre-processing*
